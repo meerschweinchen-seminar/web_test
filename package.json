@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Data analysis of pull requests for your github repo",
   "private": true,
+  
   "scripts": {
     "presite": "cd functions && npm install",
     "start": "cross-env APP_TYPE=site umi dev",
